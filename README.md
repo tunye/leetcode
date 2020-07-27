@@ -45,9 +45,15 @@
 
   [290. 单词规律](https://leetcode-cn.com/problems/word-pattern/) [(解答)](290.单词规律.java) 用hash 
 
+  [326. 3的幂](https://leetcode-cn.com/problems/power-of-three/) [(解答)](326.3的幂.java) 
+
   [349. 两个数组的交集](https://leetcode-cn.com/problems/intersection-of-two-arrays/) [(解答)](349.两个数组的交集.java) 用set
 
   [350. 两个数组的交集 II](https://leetcode-cn.com/problems/intersection-of-two-arrays-ii/) [(解答)](350.两个数组的交集 II.java) 用set
+
+  [383. 赎金信](https://leetcode-cn.com/problems/ransom-note/) [(解答)](383.赎金信.java)  用数组替换map加速
+
+  [387. 字符串中的第一个唯一字符](https://leetcode-cn.com/problems/first-unique-character-in-a-string/) [(解答)](387.字符串中的第一个唯一字符.java)  用数组替换map加速
 
 - #### 翻转数字
 
@@ -71,6 +77,8 @@
 
   [217. 存在重复元素](https://leetcode-cn.com/problems/contains-duplicate/) [(解答)](217.存在重复元素.java)
 
+  [274. H 指数](https://leetcode-cn.com/problems/h-index/) [(解答)](274.H 指数.java)
+
   [414. 第三大的数](https://leetcode-cn.com/problems/third-maximum-number/) [(解答)](414.第三大的数.java)
 
 - #### 投票算法
@@ -83,7 +91,7 @@
 
   [242. 有效的字母异位词](https://leetcode-cn.com/problems/valid-anagram/) [(解答)](242.有效的字母异位词.java)
 
-- 桶算法
+- #### 桶算法
 
   [299. 猜数字游戏](https://leetcode-cn.com/problems/bulls-and-cows/) [(解答)](299.猜数字游戏.java)
 
@@ -109,6 +117,14 @@
 
   [268. 缺失数字](https://leetcode-cn.com/problems/missing-number/) [(解答)](268.缺失数字.java) 高斯算法
 
+  [390. 消除游戏](https://leetcode-cn.com/problems/elimination-game/) [(解答)](390.消除游戏.java)
+
+  [398. 随机数索引](https://leetcode-cn.com/problems/random-pick-index/)[(解答)](398.随机数索引.java) 蓄水池算法
+
+  [400. 第N个数字](https://leetcode-cn.com/problems/nth-digit/) [(解答)](400.第N个数字.java) 
+
+  [412. Fizz Buzz](https://leetcode-cn.com/problems/fizz-buzz/) [(解答)](412.Fizz Buzz.java) 
+
 - #### tricker
 
   [231. 2的幂](https://leetcode-cn.com/problems/power-of-two/) [(解答)](231.2的幂.java)
@@ -119,12 +135,16 @@
 
   [342. 4的幂](https://leetcode-cn.com/problems/power-of-four/) [(解答)](342.4的幂.java)
 
+  [459. 重复的子字符串](https://leetcode-cn.com/problems/repeated-substring-pattern/) [(解答)](459.重复的子字符串.java)
+
   [575. 分糖果](https://leetcode-cn.com/problems/distribute-candies/) [(解答)](575.分糖果.java)
 
   [877. 石子游戏](https://leetcode-cn.com/problems/stone-game/) [(解答)](877.石子游戏.java)
 
+  [1025. 除数博弈](https://leetcode-cn.com/problems/divisor-game/) [(解答)](1025.除数博弈.java)
+  
   [1332. 删除回文子序列](https://leetcode-cn.com/problems/remove-palindromic-subsequences/) [(解答)](1332.删除回文子序列.java)
-
+  
   [面试题 17.04. 消失的数字](https://leetcode-cn.com/problems/missing-number-lcci/) [(解答)](面试题17.04. 消失的数字.java)
 
 ### 2、位运算
@@ -163,7 +183,17 @@ a ^= b;
 
 [371. 两整数之和](https://leetcode-cn.com/problems/sum-of-two-integers/) [(解答)](371.两整数之和.java) 不用+ -，计算求和
 
+[389. 找不同](https://leetcode-cn.com/problems/find-the-difference/) [(解答)](389.找不同.java)
+
+[397. 整数替换](https://leetcode-cn.com/problems/integer-replacement/) [(解答)](397.整数替换.java)
+
+[401. 二进制手表](https://leetcode-cn.com/problems/binary-watch/) [(解答)](401.二进制手表.java)
+
+[405. 数字转换为十六进制数](https://leetcode-cn.com/problems/convert-a-number-to-hexadecimal/) [(解答)](405.数字转换为十六进制数.java)
+
 [461. 汉明距离](https://leetcode-cn.com/problems/hamming-distance/) [(解答)](461.汉明距离.java)
+
+[476. 补数](https://leetcode-cn.com/problems/number-complement/) [(解答)](476.补数.java)
 
 [面试题 16.01. 交换数字](https://leetcode-cn.com/problems/swap-numbers-lcci/) [(解答)](面试题16.01.交换数字.java)
 
@@ -193,7 +223,7 @@ a ^= b;
 
 ### 4、二分查找
 
-看到时间要求有log的 要考虑二分。
+看到时间要求有log的 要考虑二分。有序（部分有序）数组要考虑二分。
 
 对于寻找左右边界的二分搜索，常见的手法是使用左闭右开的「搜索区间」，**我们还根据逻辑将「搜索区间」全都统一成了两端都闭，便于记忆，只要修改两处即可变化出三种写法**：
 
@@ -285,6 +315,10 @@ int right_bound(int[] nums, int target) {
 
 [278. 第一个错误的版本](https://leetcode-cn.com/problems/first-bad-version/) [(解答)](278.第一个错误的版本.java)
 
+[367. 有效的完全平方数](https://leetcode-cn.com/problems/valid-perfect-square/) [(解答)](367.有效的完全平方数.java)
+
+[374. 猜数字大小](https://leetcode-cn.com/problems/guess-number-higher-or-lower/)  [(解答)](374.猜数字大小.java)
+
 [441. 排列硬币](https://leetcode-cn.com/problems/arranging-coins/) [(解答)](441.排列硬币.java)
 
 ### 5、滑动窗口
@@ -332,6 +366,8 @@ while (right < s.size()) {
 
 [55. 跳跃游戏](https://leetcode-cn.com/problems/jump-game/) [(解答)](55.跳跃游戏.java)
 
+[64. 最小路径和](https://leetcode-cn.com/problems/minimum-path-sum/) [(解答)](64.最小路径和.java)
+
 [91. 解码方法](https://leetcode-cn.com/problems/decode-ways/) [(解答)](91.解码方法.java)
 
 [96. 不同的二叉搜索树](https://leetcode-cn.com/problems/unique-binary-search-trees/) [(解答)](96.不同的二叉搜索树.java) 略难。
@@ -339,6 +375,16 @@ while (right < s.size()) {
 [135. 分发糖果](https://leetcode-cn.com/problems/candy/) [(解答)](135.分发糖果.java) 
 
 [152. 乘积最大子数组](https://leetcode-cn.com/problems/maximum-product-subarray/) [(解答)](152.乘积最大子数组.java) 
+
+[300. 最长上升子序列](https://leetcode-cn.com/problems/longest-increasing-subsequence/) [(解答)](300.最长上升子序列.java) 
+
+[357. 计算各个位数不同的数字个数](https://leetcode-cn.com/problems/count-numbers-with-unique-digits/) [(解答)](357.计算各个位数不同的数字个数.java) 
+
+[409. 最长回文串](https://leetcode-cn.com/problems/longest-palindrome/) [(解答)](409.最长回文串.java) 贪心
+
+[413. 等差数列划分](https://leetcode-cn.com/problems/arithmetic-slices/) [(解答)](413.等差数列划分.java) 
+
+[455. 分发饼干](https://leetcode-cn.com/problems/assign-cookies/) [(解答)](455.分发饼干.java) 
 
 [509. 斐波那契数](https://leetcode-cn.com/problems/fibonacci-number/) [(解答)](509.斐波那契数.java) 
 
@@ -445,6 +491,8 @@ void doFunc(List<Object> input, int start, int target){
 
 [131. 分割回文串](https://leetcode-cn.com/problems/palindrome-partitioning/) [(解答)](131.分割回文串.java)
 
+[491. 递增子序列](https://leetcode-cn.com/problems/increasing-subsequences/) [(解答)](491.递增子序列.java)
+
 ### 9、递归
 
 **明白一个函数的作用并相信它能完成这个任务，千万不要试图跳进细节**
@@ -513,6 +561,8 @@ void doFunc(List<Object> input, int start, int target){
 
 [344. 反转字符串](https://leetcode-cn.com/problems/reverse-string/) [(解答)](344.反转字符串.java)
 
+[392. 判断子序列](https://leetcode-cn.com/problems/is-subsequence/) [(解答)](392.判断子序列.java)
+
 [415. 字符串相加](https://leetcode-cn.com/problems/add-strings/) [(解答)](415.字符串相加.java)
 
 ### 3、栈队列
@@ -526,6 +576,12 @@ void doFunc(List<Object> input, int start, int target){
 [225. 用队列实现栈](https://leetcode-cn.com/problems/implement-stack-using-queues/) [(解答)](225.用队列实现栈.java)
 
 [232. 用栈实现队列](https://leetcode-cn.com/problems/implement-queue-using-stacks/) [(解答)](232.用栈实现队列.java)
+
+[402. 移掉K位数字](https://leetcode-cn.com/problems/remove-k-digits/) [(解答)](402.移掉K位数字.java)
+
+[445. 两数相加 II](https://leetcode-cn.com/problems/add-two-numbers-ii/) [(解答)](445.两数相加 II.java)
+
+[496. 下一个更大元素 I](https://leetcode-cn.com/problems/next-greater-element-i/) [(解答)](496.下一个更大元素 I.java)
 
 ### 4、数组
 
@@ -552,6 +608,8 @@ void doFunc(List<Object> input, int start, int target){
 [295. 数据流的中位数](https://leetcode-cn.com/problems/find-median-from-data-stream/) [(解答)](295.数据流的中位数.java) 两个优先集合
 
 [347. 前 K 个高频元素](https://leetcode-cn.com/problems/top-k-frequent-elements/) [(解答)](347.前 K 个高频元素.java) 考验排序
+
+[485. 最大连续1的个数](https://leetcode-cn.com/problems/max-consecutive-ones/) [(解答)](485.最大连续1的个数.java)
 
 [1260. 二维网格迁移](https://leetcode-cn.com/problems/shift-2d-grid/) [(解答)](1260.二维网格迁移.java)
 
@@ -629,6 +687,12 @@ void BST(TreeNode root, int target) {
 [429. N叉树的层序遍历](https://leetcode-cn.com/problems/n-ary-tree-level-order-traversal/) [(解答)](429.N叉树的层序遍历.java) 
 
 [1022. 从根到叶的二进制数之和](https://leetcode-cn.com/problems/sum-of-root-to-leaf-binary-numbers/) [(解答)](1022.从根到叶的二进制数之和.java) 129的二进制表达
+
+### 6、构造型
+
+[380. 常数时间插入、删除和获取随机元素](https://leetcode-cn.com/problems/insert-delete-getrandom-o1/) [(解答)](380.常数时间插入、删除和获取随机元素.java) 
+
+[382. 链表随机节点](https://leetcode-cn.com/problems/linked-list-random-node/) [(解答)](382.链表随机节点.java) 
 
 ## 三、特种算法
 
